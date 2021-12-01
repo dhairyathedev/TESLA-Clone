@@ -1,7 +1,13 @@
-body{
+html, body{
     margin: 0;
     padding: 0;
+    height: 100%;
+    font-family: Tesla;
 }
+@font-face {
+    font-family: Tesla;
+    src: url(assets/font.woff2);
+  }
 .nav{
     display: flex;
     justify-content: space-between;
@@ -32,7 +38,6 @@ body{
     -moz-transition: 1s;
     -ms-transition: 1s;
     -o-transition: 1s;
-    background-color: rgba(228, 228, 228, 0.5);
 }
 .menu{
     display: flex;
@@ -59,12 +64,25 @@ body{
     background-color: rgba(209, 207, 207, 0.5);
 }
 .model-s{
-    width: 100%;
-    position: relative;
     background-image: url(assets/model-s.jpeg);
-    min-height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
     background-size: cover;
+}
+
+/* Section */
+.info-name{
+    display: flex;
+    justify-content: center;
+}
+.info-description{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    font-size: 35px;
+    font-weight: 900;
 }
