@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+#teslaLogo{
+    width: 140px;
+    cursor: pointer;
+}
+.models{
+    display: flex;
+}
+.models li{
+    margin-top: 15px;
+    padding: 18px;
+    cursor: pointer;
+    font-weight: 600;
+    height: 50px;
+    border-radius: 15px;
+    transition: 1s;
+    -webkit-transitio: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.models li:hover{
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    background-color: rgba(228, 228, 228, 0.5);
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-top: 15px;
+    padding: 18px;
+    cursor: pointer;
+    font-weight: 600;
+    height: 55px;
+    border-radius: 15px;
+    transition: 1s;
+    -webkit-transitio: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.menu li:hover{
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    background-color: rgba(209, 207, 207, 0.5);
+}
+.model-s{
+    width: 100%;
+    position: relative;
+    background-image: url(assets/model-s.jpeg);
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
